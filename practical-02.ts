@@ -13,3 +13,13 @@ Steps:
    Template strings allow you to embed variables directly using ${variableName}
    This will print formatted output like "Full Name: John Doe" to the terminal.
 */
+
+let fullName: string = "Saikat Sarkar";
+let age: string = "18";
+let gender: string = "Male";
+let phoneNumber: string = "5965565456";
+
+console.log(`Full Name: ${fullName}`);
+console.log(`Age: ${age}`);
+console.log(`Gender: ${gender}`);
+console.log(`Phone Number: ${phoneNumber}`);
