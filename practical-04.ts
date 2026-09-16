@@ -1,6 +1,13 @@
-let userObject = {
+type UserType = {
+  name: string;
+  age: number;
+  gender: string;
+  number: string;
+};
+
+let userObject: UserType = {
   name: "Saikat Sarkar",
-  age: "18",
+  age: 18,
   gender: "Male",
   number: "5965565456",
 };

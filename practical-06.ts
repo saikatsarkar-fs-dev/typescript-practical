@@ -1,5 +1,11 @@
+type ProductType = {
+  name: string;
+  price: number;
+};
+
 let discount: number = 10;
-const product = [
+
+const product: ProductType[] = [
   {
     name: "Laptop",
     price: 30000,
